@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nierot/youtube-lookup-id/issues"
   },
-  "homepage": "https://github.com/Nierot/youtube-lookup-id#readme"
+  "homepage": "https://github.com/Nierot/youtube-lookup-id#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

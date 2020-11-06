@@ -7,3 +7,11 @@ Run with:
 ```
 node index.js
 ```
+
+Requires a settings.json file that contains:
+```
+{
+    "API_TOKEN": YOUR_YOUTUBE_API_TOKEN_HERE,
+    "PORT": PORT_HERE
+}
+```
