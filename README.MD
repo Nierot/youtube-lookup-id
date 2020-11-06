@@ -12,6 +12,7 @@ Requires a settings.json file that contains:
 ```
 {
     "API_TOKEN": YOUR_YOUTUBE_API_TOKEN_HERE,
-    "PORT": PORT_HERE
+    "PORT": PORT_HERE,
+    "ROUTE": DEFAULT_ROUTE
 }
 ```
