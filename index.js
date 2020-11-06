@@ -1,4 +1,5 @@
 const app = require('express')();
+const cors = require('cors');
 const YouTube = require('simple-youtube-api');
 const { API_TOKEN, PORT, ROUTE } = require('./settings.json');
 
@@ -18,6 +19,8 @@ app.get(`${ROUTE}/info`, (req, res) => {
         .catch(err => res.status(500).send(err))
 });
 
+// Configure server
+app.use(cors())
 
 // Start server
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}${ROUTE}`))
